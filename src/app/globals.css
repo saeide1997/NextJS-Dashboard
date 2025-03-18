@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'ShabnamLight';
+    src: url('../../public/fonts/Shabnam-Light.eot');
+    src: url('../../public/fonts/Shabnam-Light.eot') format('embedded-opentype'),
+    url('../../public/fonts/Shabnam-Light.woff') format('woff'),
+    url('../../public/fonts/Shabnam-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'ShabnamBold';
+    src: url('../../public/fonts/Shabnam-Bold.eot');
+    src: url('../../public/fonts/Shabnam-Bold.eot') format('embedded-opentype'),
+    url('../../public/fonts/Shabnam-Bold.woff') format('woff'),
+    url('../../public/fonts/Shabnam-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'ShabnamMid';
+    src: url('../../public/fonts/Shabnam-Medium.eot');
+    src: url('../../public/fonts/Shabnam-Medium.eot') format('embedded-opentype'),
+    url('../../public/fonts/Shabnam-Medium.woff') format('woff'),
+    url('../../public/fonts/Shabnam-Medium.ttf') format('truetype');
+}
+body{
+    direction: rtl;
+    font-family: 'ShabnamLight' !important;
+    background: #3d424b;
+}
+.lightShab{
+    font-family: 'ShabnamLight' !important;
+}
+.boldShab{
+    font-family: 'ShabnamBold' !important;
+}
+.midShab{
+    font-family: 'ShabnamMid' !important;
+}
+.containerr{
+    display: flex;
+}
+.flex-6{
+    flex: 6;
+}
+.flex-5{
+    flex: 5;
+}
+.flex-4{
+    flex: 4;
+}
+.flex-3{
+    flex: 3;
+}
+.flex-2{
+    flex: 2;
+}
+.flex-1{
+    flex: 1;
+}
+.shadow{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.MuiDataGrid-cell{
+    display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 11px;
+}
+.MuiIconButton-root{
+    rotate: 180deg;
+}
+.Sahdow3d{
+    box-shadow: rgb(0 0 0 / 58%) 0px 10px 20px, rgb(0 0 0 / 21%) 0px 2px 30px
+}
+.MuiDataGrid-root{
+    border-radius: 10px !important;
+    background-color: #3d4653;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.MuiDataGrid-cell{
+    color: white;
+    font-size: 0.9rem;
+    font-family: 'ShabnamMid' !important;
+}
+.MuiDataGrid-columnHeaderTitleContainer{
+    font-size: 1rem;
+    font-family: 'ShabnamMid' !important;
+
+}
